@@ -10,7 +10,7 @@ html, body {
 	height: 100%;
 
 
-	background-image: url('../img/image.jpg');
+	/* background-image: url('../img/image.jpg'); */
 	background-repeat: no-repeat;
 	background-origin: content-box;
 	background-size: cover;

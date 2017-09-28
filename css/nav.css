@@ -2,7 +2,16 @@ nav {
 	display: block;
 }
 
+.main-nav, .main-nav ul,
+.main-nav ul li, .main-nav ul li a {
+	padding: 0;
+	margin: 0;
+}
+
 .main-nav {
+	height:100px;
+	width: 100%;
+	background-color: #9BACAC;
 
 }
 
@@ -10,3 +19,35 @@ nav {
 	display: none;
 }
 
+.main-nav:hover .inner-nav {
+	display: block;
+}
+ 
+.main-nav ul {
+	list-style: none;
+}
+
+.main-nav ul li {
+	float: left;
+	height: 100px;
+	width: 50%;
+	background-color: red;
+}
+
+.main-nav ul li:last-child {
+	text-align: right;
+}
+
+.main-nav ul li a {
+	text-decoration: none;
+	line-height: 100px;
+	color: yellow;
+}
+
+.main-nav ul li a:first-child {
+	padding-left: 15px;
+}
+
+.main-nav ul li a:last-child {
+	padding-right: 75px;
+}
