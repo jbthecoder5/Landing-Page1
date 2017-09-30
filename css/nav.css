@@ -14,14 +14,6 @@ nav {
 	background-color: #9BACAC;
 
 }
-
-.main-nav .inner-nav {
-	display: none;
-}
-
-.main-nav:hover .inner-nav {
-	display: block;
-}
  
 .main-nav ul {
 	list-style: none;
@@ -30,24 +22,78 @@ nav {
 .main-nav ul li {
 	float: left;
 	height: 100px;
-	width: 50%;
+	width: 100px;
 	background-color: red;
+	text-align: center;
 }
 
 .main-nav ul li:last-child {
-	text-align: right;
+	float: right;
+	width: 200px;
+	text-align: center;
 }
+
+.main-nav ul li:last-child a {
+	
+}	
 
 .main-nav ul li a {
 	text-decoration: none;
 	line-height: 100px;
 	color: yellow;
+	font-size: 1em;
 }
 
-.main-nav ul li a:first-child {
-	padding-left: 15px;
+
+
+
+
+
+
+
+
+
+
+
+
+/* slide-out nav properties */
+
+
+
+
+
+/*
+
+.btm-slide-nav ul,
+.btm-slide-nav ul li, 
+.btm-slide-nav ul li a {  // reset prop 
+	padding: 0;
+	margin: 0;
 }
 
-.main-nav ul li a:last-child {
-	padding-right: 75px;
+
+.btm-slide-nav {
+	width: 175px;
+	height: 100%;
+	background-color: #11E4C9;
+
+	position: absolute;
+	top: 0;
+	left:0;
+	margin-left: -175px;
+
 }
+
+.btm-slide-nav ul {
+	list-style: none;
+}
+
+.btm-slide-nav ul li {
+
+}
+
+.btm-slide-nav ul li a {
+
+}
+
+*/

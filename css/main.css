@@ -2,6 +2,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	font-size-adjust: 100%;
 }
 
 
@@ -10,7 +11,7 @@ html, body {
 	height: 100%;
 
 
-	/* background-image: url('../img/image.jpg'); */
+	/* background-image: url('../img/landing-img.jpg'); */
 	background-repeat: no-repeat;
 	background-origin: content-box;
 	background-size: cover;
