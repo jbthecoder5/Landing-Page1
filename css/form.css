@@ -1,0 +1,17 @@
+.layout-form {
+	width: 25%;
+	margin: 0 auto;
+}
+
+.form1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.form1 label {
+	text-align: center;
+}
+
+.form1 input[type="text"] {
+	
+}
