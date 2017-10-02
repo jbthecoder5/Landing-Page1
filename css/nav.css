@@ -31,17 +31,29 @@ nav {
 	text-align: center;
 }
 
-.main-nav ul li:last-child a {
-	
+.main-nav ul li:last-child a:hover,
+.main-nav ul li:last-child a:active {
+	color: #1C231E;
 }	
 
 .main-nav ul li a {
 	text-decoration: none;
 	line-height: 85px;
-	color: yellow;
+	color: #E4F1E6;
 	font-size: 1em;
+	font-family: sans-serif;
 }
 
+.main-nav ul li:hover,
+.main-nav ul li:active {
+	background: #ffffff;
+	color: #1C231E;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a:active {
+	color: #1C231E;
+}
 
 
 
